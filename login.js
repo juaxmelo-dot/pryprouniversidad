@@ -6,7 +6,7 @@ document.getElementById("loginForm").addEventListener("submit", function(e){
   let mensaje = document.getElementById("error-msg");
   let modal = document.getElementById("loginModal");
 
-  const USER = "SebasyAsly";
+  const USER = "SebasyAshly";
   const PASS = "300725";
 
   if (usuario === "" || clave === "") {
