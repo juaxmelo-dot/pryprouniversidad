@@ -6,8 +6,8 @@ document.getElementById("loginForm").addEventListener("submit", function(e){
   let mensaje = document.getElementById("error-msg");
   let modal = document.getElementById("loginModal");
 
-  const USER = "SebasyAshly";
-  const PASS = "300725";
+  const USER = "user";
+  const PASS = "1234";
 
   if (usuario === "" || clave === "") {
     mensaje.style.color = "red";
